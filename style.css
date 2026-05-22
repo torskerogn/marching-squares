@@ -213,3 +213,40 @@ input, button, select {
   accent-color: #222222;
   cursor: pointer;
 }
+
+/* Compact mode for iframe / small viewports */
+@media (max-width: 900px) {
+  body {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  #controls {
+    width: 100%;
+    height: auto;
+    font-size: small;
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  .writing {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+
+  #text-box {
+    font-size: 1rem;
+    height: 1.5rem;
+  }
+
+  #RNDM-btn, #PNG-btn {
+    font-size: 1rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+  }
+
+  canvas {
+    width: 100% !important;
+  }
+}
