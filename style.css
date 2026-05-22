@@ -217,46 +217,46 @@ input, button, select {
 /* Compact controls for iframe */
 @media (max-height: 900px) {
   #controls {
-    padding: 0.25rem;
-    margin: 0.25rem;
-    font-size: small;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    font-size: medium;
     overflow-y: auto;
   }
 
   h4 {
-    margin: 0.1rem 0;
-    font-size: 0.7rem;
+    margin: 0.2rem 0;
+    font-size: 0.85rem;
   }
 
   .writing {
-    padding: 0.2rem;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    font-size: 0.75rem;
+    padding: 0.35rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
   }
 
   #text-box {
-    font-size: 0.9rem;
-    height: 1.2rem;
+    font-size: 1.1rem;
+    height: 1.6rem;
   }
 
   #description {
-    height: 1.5rem;
+    height: 2rem;
   }
 
   #RNDM-btn, #PNG-btn {
-    font-size: 0.9rem;
-    height: 2rem;
-    margin-top: 0.5rem;
+    font-size: 1rem;
+    height: 2.8rem;
+    margin-top: 0.7rem;
   }
 
   .line {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
   }
 
   #button-box-color {
-    margin-top: 0.3rem;
-    gap: 0.5rem;
+    margin-top: 0.5rem;
+    gap: 0.7rem;
   }
 }
