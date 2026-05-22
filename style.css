@@ -1,0 +1,215 @@
+body {
+  height: 100svh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: #E6E4D7
+}
+canvas {
+  width: 95% !important;
+  height: auto !important;
+
+  
+  /* border: #222222;
+  border-width: 0.1rem;
+  border-style: solid; */
+  padding: 0.1rem;
+}
+input, button, select {
+  font-size: 1.1rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+#controls {
+  
+  width: 22rem;
+  height: 100vh;
+  padding: 0.5rem;
+  flex-shrink: 0;
+  background: #E6E4D7;
+  box-sizing: border-box;
+
+  /* TEXT */
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 900;
+  margin: 1rem;
+
+  /* border: #222222;
+  border-width: 0.1rem;
+  border-style: solid; */
+
+}
+
+#info-box {
+  background-color: rgba(245, 245, 220, 0.5);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  position:absolute;
+  bottom: 5rem;
+  left: 45vw;
+  
+}
+
+#info-close {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.5rem;
+  cursor: pointer;
+  font-size: small;
+  color: #222222;
+}
+
+#info-text {
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+#button-box-color {
+  display: flex;
+  flex: 2;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#button-box-size {
+  display: flex;
+  flex: 2;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btns {
+  background-color: white;
+  border-radius: 0.3rem;
+  border: solid;
+}
+
+.btns.active {
+  border: 2px solid blue;
+}
+
+#black-button {
+  background-color: #222222;
+  color: white;
+  border-color: #222222;
+  cursor: pointer;
+}
+
+#white-button {
+  cursor: pointer;
+}
+
+.writing {
+  background-color: white;
+  width: 19.8rem;
+  border-radius: 0.3rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#description {
+  height: 3rem;
+}
+
+#text-box {
+  font-size: 1.5rem;
+  height: 2rem;
+}
+
+/* #type {
+  font-size: 1.5rem;
+  height: 2rem;
+} */
+
+#typeandperc {
+  display: flex;
+  flex: 2;
+  gap: 1rem;
+}
+
+#RNDM-btn {
+  background-color: white;
+  color: #222222;
+  font-weight:normal;
+  font-size: 1.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem; border-style: solid; border-width: 0.1rem; border-color:#222222;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+#PNG-btn {
+  background-color: #222222;
+  color: white;
+  font-weight:normal;
+  font-size: 1.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem; border-style: solid; border-width: 0.1rem; border-color:#222222;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.line {
+  height: 0.1rem;
+  width: 100%;
+  background-color: #222222;
+  border-radius: 100px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+/* SLIDERS AND UI */
+
+#pattern input[type="color"] {
+  width: 100%;
+  height: 3rem;
+  padding: 0rem;
+  cursor: pointer;
+  border: none;
+}
+
+#background input[type="color"] {
+  width: 100%;
+  height: 3rem;
+  padding: 0rem;
+  cursor: pointer;
+  border: none;
+}
+
+#cell-size input[type="range"] {
+  width: 100%;
+  accent-color: #222222;
+  cursor: pointer;
+}
+
+#noise input[type="range"] {
+  width: 100%;
+  accent-color: #222222;
+  cursor: pointer;
+}
+
+#stroke input[type="range"] {
+  width: 100%;
+  accent-color: #222222;
+  cursor: pointer;
+}

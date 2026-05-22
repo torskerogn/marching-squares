@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marching Squares</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+  
+  <body>
+       
+
+        <div id="controls">
+          <!-- <h1 id="header">ÅBEN LABEL GENERATOR</h1> -->
+
+          <div id="cell-size">
+            <h4>CELL SIZE</h4> 
+          </div>
+          
+          <div id="noise">
+            <h4>NOISE</h4>
+          </div>
+          
+          <div id="stroke">
+            <h4>STROKE</h4>
+          </div>
+          
+          <button id="RNDM-btn">RANDOM</button>
+          
+          <div class="line"></div>
+
+            <div id="pattern"></div>
+            <div id="background"></div>
+
+          <div class="line"></div>
+          
+          <!-- <input id="text-box" type="text" placeholder="Give your beer a title"> -->
+          <!-- <input id="description" type="text" placeholder="Write a description"> -->
+          <textarea name="" id="text-box" class="writing">Give your beer a title</textarea>
+
+          <div id="typeandperc">
+            <textarea name="" id="type" class="writing">Type of beer</textarea>
+            <textarea name="" id="percentage" class="writing">6.2</textarea>
+          </div>
+          <textarea name="" id="description" class="writing">Write a description . . .</textarea>
+
+
+
+          <div id="button-box-color">
+            <button id="white-button" class="btns">WHITE</button>
+            <button id="black-button" class="btns">BLACK</button>
+          </div>
+
+          <!-- <div id="button-box-size">
+            <button id="33cl" class="btns">33cl</button>
+            <button id="44cl" class="btns">44cl</button>
+          </div> -->
+
+          
+          <div class="line"></div>
+          
+          <button id="PNG-btn">PNG</button>
+        </div>
+      
+      <div id="info-box">
+        <span id="info-close" onclick="this.parentElement.style.display='none'">&times;</span>
+        <p id="info-text">Use keys "a" and "s" + mouse to add and remove shapes</p>
+      </div>
+
+        <script src="sketch.js" defer>
+        </script>
+
+        
+    
+    </body>
+    </html>
