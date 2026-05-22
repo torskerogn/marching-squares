@@ -215,7 +215,7 @@ input, button, select {
 }
 
 /* Compact controls for iframe */
-@media (max-height: 700px) {
+@media (max-height: 900px) {
   #controls {
     padding: 0.25rem;
     margin: 0.25rem;
